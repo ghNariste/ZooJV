@@ -5,6 +5,8 @@ import fact.it.zoo.model.Visitor;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import java.util.ArrayList;
+
 @SpringBootApplication
 public class StartFolderProjectZooApplication {
 
@@ -22,7 +24,10 @@ public class StartFolderProjectZooApplication {
 		myVisitor.setYearOfBirth(2003);
 		myVisitor.addToWishlist("cat");
 		myVisitor.setPersonalCode("avs");
-
+		ArrayList wishList = new ArrayList<>();
+		wishList.add("cat");
+		wishList.add("cat");
+		wishList.add("cat");
 		System.out.println(myVisitor.toString());
 		System.out.println(myVisitor.getWishlist());
 		System.out.println(myVisitor.getNumberOfWishes());

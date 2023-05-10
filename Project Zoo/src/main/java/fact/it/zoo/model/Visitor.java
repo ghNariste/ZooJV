@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Visitor {
     private String personalCode;
     private int yearOfBirth;
-    private ArrayList<String> wishlist = new ArrayList<> ();
+    ArrayList <String> wishList;
 
     public Visitor(String firstName, String surName) {
         this.firstName = firstName;
