@@ -6,10 +6,8 @@ public class Visitor {
     private String personalCode;
     private int yearOfBirth;
     private ArrayList<String> wishlist = new ArrayList<> ();
-    private Person firstName;
-    private Person surName;
 
-    public Visitor(Person firstName, Person surName) {
+    public Visitor(String firstName, String surName) {
         this.firstName = firstName;
         this.surName = surName;
     }
