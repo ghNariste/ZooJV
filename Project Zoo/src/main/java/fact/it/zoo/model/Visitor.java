@@ -2,21 +2,22 @@ package fact.it.zoo.model;
 import java.util.ArrayList;
 
 
-public class Visitor {
+public class Visitor extends Person{
     private String personalCode;
     private int yearOfBirth;
-    ArrayList <String> wishList;
+    private ArrayList <String> wishList;
 
     public Visitor(String firstName, String surName) {
-        this.firstName = firstName;
-        this.surName = surName;
+        super(firstName, surName);
     }
-    public Visitor() {
-        this.personalCode = "undefined";
-    }
-    public Visitor(String personalCode) {
-        this.personalCode = personalCode;
-    }
+
+//    public Visitor(String firstName, String surName, String personalCode, int yearOfBirth, ArrayList<String> wishList) {
+//        this.personalCode = personalCode;
+//        this.yearOfBirth = yearOfBirth;
+//        this.wishList = wishList;
+//        super.getFirstName();
+//        super.getSurName();
+//    }
 
     public String getPersonalCode() {
         return personalCode;
@@ -35,11 +36,11 @@ public class Visitor {
     }
 
     public ArrayList<String> getWishlist() {
-        return wishlist;
+        return wishList;
     }
 
     public boolean addToWishlist(String animal) {
-        if (wishlist.size()<5){
+        if (wishList.size()<5){
             return true;
         }
         else{
@@ -47,7 +48,8 @@ public class Visitor {
         }
     }
     public int getNumberOfWishes (){
-        return wishlist.size();
+        this.wishList = wishList;
+        return wishList.size();
     }
 
     public String toString(){

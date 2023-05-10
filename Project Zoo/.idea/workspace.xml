@@ -7,7 +7,12 @@
     <list default="true" id="ab02ca5e-70b3-421f-b84b-51f988fbae34" name="Changes" comment="'Visitor Class beggining'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fact/it/zoo/StartFolderProjectZooApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fact/it/zoo/StartFolderProjectZooApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fact/it/zoo/model/AnimalWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fact/it/zoo/model/AnimalWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fact/it/zoo/model/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fact/it/zoo/model/Staff.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fact/it/zoo/model/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fact/it/zoo/model/Visitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fact/it/zoo/StartFolderProjectZooApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fact/it/zoo/StartFolderProjectZooApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fact/it/zoo/model/AnimalWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fact/it/zoo/model/Zoo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fact/it/zoo/model/Zoo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +67,7 @@
       <recent name="C:\Users\naris\OneDrive\Документы\Java\Maky_Abdykadyrova_r0926901_Zoo\Project Zoo\src\main\java\fact\it\zoo\model" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.VisitorTests">
+  <component name="RunManager" selected="Spring Boot.StartFolderProjectZooApplication">
     <configuration name="PersonTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="zoo" />
       <extension name="coverage">
@@ -134,7 +139,7 @@
       <updated>1683672816710</updated>
       <workItem from="1683672820730" duration="2863000" />
       <workItem from="1683701604934" duration="1648000" />
-      <workItem from="1683703299600" duration="13981000" />
+      <workItem from="1683703299600" duration="16878000" />
     </task>
     <task id="LOCAL-00001" summary="'Visitor Class beggining'">
       <created>1683705512613</created>

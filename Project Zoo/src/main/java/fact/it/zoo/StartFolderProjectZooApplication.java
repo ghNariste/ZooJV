@@ -20,16 +20,15 @@ public class StartFolderProjectZooApplication {
 		System.out.println(myPerson.getSurName());
 		System.out.println(myPerson.toString());
 
-		Visitor myVisitor = new Visitor();
+		Visitor myVisitor = new Visitor("Jane", "Doe");
 		myVisitor.setYearOfBirth(2003);
-		myVisitor.addToWishlist("cat");
 		myVisitor.setPersonalCode("avs");
+
 		ArrayList wishList = new ArrayList<>();
 		wishList.add("cat");
 		wishList.add("cat");
 		wishList.add("cat");
 		System.out.println(myVisitor.toString());
-		System.out.println(myVisitor.getWishlist());
 		System.out.println(myVisitor.getNumberOfWishes());
 		System.out.println(myVisitor.getYearOfBirth());
 		System.out.println(myVisitor.getPersonalCode());
