@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ab02ca5e-70b3-421f-b84b-51f988fbae34" name="Changes" comment="'Visitor Class beggining'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fact/it/zoo/model/AnimalWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fact/it/zoo/model/AnimalWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fact/it/zoo/model/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fact/it/zoo/model/Visitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fact/it/zoo/StartFolderProjectZooApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fact/it/zoo/StartFolderProjectZooApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fact/it/zoo/model/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fact/it/zoo/model/Zoo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -135,7 +134,7 @@
       <updated>1683672816710</updated>
       <workItem from="1683672820730" duration="2863000" />
       <workItem from="1683701604934" duration="1648000" />
-      <workItem from="1683703299600" duration="11280000" />
+      <workItem from="1683703299600" duration="12448000" />
     </task>
     <task id="LOCAL-00001" summary="'Visitor Class beggining'">
       <created>1683705512613</created>

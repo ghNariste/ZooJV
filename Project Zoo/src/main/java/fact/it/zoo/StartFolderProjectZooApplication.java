@@ -22,11 +22,13 @@ public class StartFolderProjectZooApplication {
 		myVisitor.setYearOfBirth(2003);
 		myVisitor.addToWishlist("cat");
 		myVisitor.setPersonalCode("avs");
+
 		System.out.println(myVisitor.toString());
 		System.out.println(myVisitor.getWishlist());
 		System.out.println(myVisitor.getNumberOfWishes());
 		System.out.println(myVisitor.getYearOfBirth());
 		System.out.println(myVisitor.getPersonalCode());
+
 		System.exit(0);
 
 	}
