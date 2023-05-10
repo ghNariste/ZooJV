@@ -10,17 +10,17 @@ public class StartFolderProjectZooApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(StartFolderProjectZooApplication.class, args);
-//		Person myPerson = new Person();
-//		myPerson.setFirstName("Dean");
-//		myPerson.setSurName("Don");
-//		myPerson.toString();
-//		System.out.println(myPerson.getFirstName());
-//		System.out.println(myPerson.getSurName());
-//		System.out.println(myPerson.toString());
+		Person myPerson = new Person();
+		myPerson.setFirstName("Dean");
+		myPerson.setSurName("Don");
+		myPerson.toString();
+		System.out.println(myPerson.getFirstName());
+		System.out.println(myPerson.getSurName());
+		System.out.println(myPerson.toString());
 
 		Visitor myVisitor = new Visitor();
 		myVisitor.setYearOfBirth(2003);
-		myVisitor.addToWishlist("cow,dof,kol,cat");
+		myVisitor.addToWishlist("cat");
 		myVisitor.setPersonalCode("avs");
 		System.out.println(myVisitor.toString());
 		System.out.println(myVisitor.getWishlist());

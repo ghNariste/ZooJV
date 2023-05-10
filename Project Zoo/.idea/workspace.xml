@@ -7,7 +7,9 @@
     <list default="true" id="ab02ca5e-70b3-421f-b84b-51f988fbae34" name="Changes" comment="'Visitor Class beggining'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fact/it/zoo/StartFolderProjectZooApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fact/it/zoo/StartFolderProjectZooApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fact/it/zoo/model/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fact/it/zoo/model/Staff.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fact/it/zoo/model/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fact/it/zoo/model/Visitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fact/it/zoo/VisitorTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fact/it/zoo/VisitorTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/fact/it/zoo/StartFolderProjectZooApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fact/it/zoo/StartFolderProjectZooApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +65,7 @@
       <recent name="C:\Users\naris\OneDrive\Документы\Java\Maky_Abdykadyrova_r0926901_Zoo\Project Zoo\src\main\java\fact\it\zoo\model" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.StartFolderProjectZooApplication">
+  <component name="RunManager" selected="JUnit.VisitorTests">
     <configuration name="PersonTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="zoo" />
       <extension name="coverage">
@@ -95,6 +97,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VisitorTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zoo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fact.it.zoo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fact.it.zoo" />
+      <option name="MAIN_CLASS_NAME" value="fact.it.zoo.VisitorTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StartFolderProjectZooApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="zoo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="fact.it.zoo.StartFolderProjectZooApplication" />
@@ -104,6 +121,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.VisitorTests" />
         <item itemvalue="JUnit.PersonTests" />
         <item itemvalue="JUnit.PersonTests.testConstructorEnGetters" />
       </list>
@@ -119,7 +137,7 @@
       <updated>1683672816710</updated>
       <workItem from="1683672820730" duration="2863000" />
       <workItem from="1683701604934" duration="1648000" />
-      <workItem from="1683703299600" duration="6202000" />
+      <workItem from="1683703299600" duration="10665000" />
     </task>
     <task id="LOCAL-00001" summary="'Visitor Class beggining'">
       <created>1683705512613</created>

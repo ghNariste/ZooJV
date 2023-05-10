@@ -1,6 +1,7 @@
 package fact.it.zoo.model;
 import java.util.ArrayList;
 
+
 public class Visitor {
     private String personalCode;
     private int yearOfBirth;
@@ -50,8 +51,9 @@ public class Visitor {
     public int getNumberOfWishes (){
         return wishlist.size();
     }
+
     public String toString(){
-        return "Visitor"+" "+super.toString()+ " "+"with personal code"+getPersonalCode();
+        return "Visitor"+" "+super.toString()+ " "+"with personal code"+" "+getPersonalCode();
     }
 }
 //Maky Abdykadyrova
