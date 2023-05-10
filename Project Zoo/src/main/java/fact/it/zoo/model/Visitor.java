@@ -5,11 +5,12 @@ import java.util.ArrayList;
 public class Visitor extends Person{
     private String personalCode;
     private int yearOfBirth;
-    private ArrayList <String> wishList;
+    private ArrayList<String> wishList = new ArrayList<> (3);
 
     public Visitor(String firstName, String surName) {
         super(firstName, surName);
     }
+
 
 //    public Visitor(String firstName, String surName, String personalCode, int yearOfBirth, ArrayList<String> wishList) {
 //        this.personalCode = personalCode;
@@ -47,9 +48,10 @@ public class Visitor extends Person{
             return false;
         }
     }
+
     public int getNumberOfWishes (){
-        this.wishList = wishList;
-        return wishList.size();
+        int size = wishList.size();
+        return size;
     }
 
     public String toString(){

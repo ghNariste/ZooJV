@@ -23,15 +23,12 @@ public class StartFolderProjectZooApplication {
 		Visitor myVisitor = new Visitor("Jane", "Doe");
 		myVisitor.setYearOfBirth(2003);
 		myVisitor.setPersonalCode("avs");
-
-		ArrayList wishList = new ArrayList<>();
-		wishList.add("cat");
-		wishList.add("cat");
-		wishList.add("cat");
 		System.out.println(myVisitor.toString());
+		System.out.println(myVisitor.getWishlist());
 		System.out.println(myVisitor.getNumberOfWishes());
 		System.out.println(myVisitor.getYearOfBirth());
 		System.out.println(myVisitor.getPersonalCode());
+		System.out.println(myVisitor.addToWishlist("cat"));
 
 		System.exit(0);
 
