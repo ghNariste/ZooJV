@@ -8,7 +8,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fact/it/zoo/StartFolderProjectZooApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fact/it/zoo/StartFolderProjectZooApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fact/it/zoo/model/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fact/it/zoo/model/Visitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fact/it/zoo/StartFolderProjectZooApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fact/it/zoo/StartFolderProjectZooApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fact/it/zoo/StartFolderProjectZooApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fact/it/zoo/model/Visitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fact/it/zoo/model/Visitor.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,32 +39,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/naris/IdeaProjects/example-bicycle",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.general",
-    "spring.configuration.checksum": "d2cbe65f53da8607e64173c1a83394fe",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/naris/IdeaProjects/example-bicycle&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;d2cbe65f53da8607e64173c1a83394fe&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\naris\OneDrive\Документы\Java\Maky_Abdykadyrova_r0926901_Zoo\Project Zoo\src\main\java\fact\it\zoo\model" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.StartFolderProjectZooApplication">
+  <component name="RunManager" selected="JUnit.VisitorTests">
     <configuration name="PersonTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="zoo" />
       <extension name="coverage">
@@ -110,6 +111,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VisitorTests.testConstructorEnGetters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zoo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fact.it.zoo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fact.it.zoo" />
+      <option name="MAIN_CLASS_NAME" value="fact.it.zoo.VisitorTests" />
+      <option name="METHOD_NAME" value="testConstructorEnGetters" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VisitorTests.testSetSurName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zoo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fact.it.zoo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fact.it.zoo" />
+      <option name="MAIN_CLASS_NAME" value="fact.it.zoo.VisitorTests" />
+      <option name="METHOD_NAME" value="testSetSurName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StartFolderProjectZooApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="zoo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="fact.it.zoo.StartFolderProjectZooApplication" />
@@ -120,6 +153,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.VisitorTests" />
+        <item itemvalue="JUnit.VisitorTests.testSetSurName" />
+        <item itemvalue="JUnit.VisitorTests.testConstructorEnGetters" />
         <item itemvalue="JUnit.PersonTests" />
         <item itemvalue="JUnit.PersonTests.testConstructorEnGetters" />
       </list>
@@ -135,7 +170,8 @@
       <updated>1683672816710</updated>
       <workItem from="1683672820730" duration="2863000" />
       <workItem from="1683701604934" duration="1648000" />
-      <workItem from="1683703299600" duration="18343000" />
+      <workItem from="1683703299600" duration="19127000" />
+      <workItem from="1683742378103" duration="5636000" />
     </task>
     <task id="LOCAL-00001" summary="'Visitor Class beggining'">
       <created>1683705512613</created>

@@ -5,27 +5,22 @@ import java.util.ArrayList;
 public class Visitor extends Person{
     private String personalCode;
     private int yearOfBirth;
-    private ArrayList<String> wishList = new ArrayList<> (3);
+    private ArrayList<String> wishList = new ArrayList<> (5);
 
     public Visitor(String firstName, String surName) {
         super(firstName, surName);
+        this.personalCode = "undefined";
     }
-
-
-//    public Visitor(String firstName, String surName, String personalCode, int yearOfBirth, ArrayList<String> wishList) {
-//        this.personalCode = personalCode;
-//        this.yearOfBirth = yearOfBirth;
-//        this.wishList = wishList;
-//        super.getFirstName();
-//        super.getSurName();
-//    }
 
     public String getPersonalCode() {
         return personalCode;
     }
 
     public void setPersonalCode(String personalCode) {
-        this.personalCode = personalCode;
+        if (this.personalCode.equals("undefined")) {
+            this.personalCode = personalCode;
+        }
+
     }
 
     public int getYearOfBirth() {
@@ -40,8 +35,9 @@ public class Visitor extends Person{
         return wishList;
     }
 
-    public boolean addToWishlist(String animal) {
+    public boolean addToWishList(String animal) {
         if (wishList.size()<5){
+            wishList.add(animal);
             return true;
         }
         else{

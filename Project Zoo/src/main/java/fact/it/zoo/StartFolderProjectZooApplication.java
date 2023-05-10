@@ -12,23 +12,31 @@ public class StartFolderProjectZooApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(StartFolderProjectZooApplication.class, args);
-		Person myPerson = new Person();
-		myPerson.setFirstName("Dean");
-		myPerson.setSurName("Don");
-		myPerson.toString();
-		System.out.println(myPerson.getFirstName());
-		System.out.println(myPerson.getSurName());
-		System.out.println(myPerson.toString());
+//		Person myPerson = new Person();
+//		myPerson.setFirstName("Dean");
+//		myPerson.setSurName("Don");
+//		myPerson.toString();
+//		System.out.println(myPerson.getFirstName());
+//		System.out.println(myPerson.getSurName());
+//		System.out.println(myPerson.toString());
 
 		Visitor myVisitor = new Visitor("Jane", "Doe");
 		myVisitor.setYearOfBirth(2003);
-		myVisitor.setPersonalCode("avs");
+
 		System.out.println(myVisitor.toString());
+		System.out.println(myVisitor.getWishlist());
+		System.out.println(myVisitor.addToWishList("cat"));
 		System.out.println(myVisitor.getWishlist());
 		System.out.println(myVisitor.getNumberOfWishes());
 		System.out.println(myVisitor.getYearOfBirth());
 		System.out.println(myVisitor.getPersonalCode());
-		System.out.println(myVisitor.addToWishlist("cat"));
+		myVisitor.setPersonalCode("avs");
+		System.out.println(myVisitor.getPersonalCode());
+		myVisitor.setPersonalCode("abv");
+		System.out.println(myVisitor.getPersonalCode());
+
+
+
 
 		System.exit(0);
 
