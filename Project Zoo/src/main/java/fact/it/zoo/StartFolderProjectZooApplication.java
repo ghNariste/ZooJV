@@ -1,6 +1,7 @@
 package fact.it.zoo;
 
 import fact.it.zoo.model.Person;
+import fact.it.zoo.model.Visitor;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -9,13 +10,23 @@ public class StartFolderProjectZooApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(StartFolderProjectZooApplication.class, args);
-		Person myPerson = new Person();
-		myPerson.setFirstName("Dean");
-		myPerson.setSurName("Don");
-		myPerson.toString();
-		System.out.println(myPerson.getFirstName());
-		System.out.println(myPerson.getSurName());
-		System.out.println(myPerson.toString());
+//		Person myPerson = new Person();
+//		myPerson.setFirstName("Dean");
+//		myPerson.setSurName("Don");
+//		myPerson.toString();
+//		System.out.println(myPerson.getFirstName());
+//		System.out.println(myPerson.getSurName());
+//		System.out.println(myPerson.toString());
+
+		Visitor myVisitor = new Visitor();
+		myVisitor.setYearOfBirth(2003);
+		myVisitor.addToWishlist("cow,dof,kol,cat");
+		myVisitor.setPersonalCode("avs");
+		System.out.println(myVisitor.toString());
+		System.out.println(myVisitor.getWishlist());
+		System.out.println(myVisitor.getNumberOfWishes());
+		System.out.println(myVisitor.getYearOfBirth());
+		System.out.println(myVisitor.getPersonalCode());
 		System.exit(0);
 
 	}
