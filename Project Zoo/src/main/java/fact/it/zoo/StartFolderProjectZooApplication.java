@@ -2,9 +2,14 @@ package fact.it.zoo;
 
 import fact.it.zoo.model.Person;
 import fact.it.zoo.model.Visitor;
+
+import fact.it.zoo.model.Staff;
+import fact.it.zoo.model.AnimalWorld;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 
 @SpringBootApplication
@@ -20,23 +25,28 @@ public class StartFolderProjectZooApplication {
 //		System.out.println(myPerson.getSurName());
 //		System.out.println(myPerson.toString());
 
-		Visitor myVisitor = new Visitor("Jane", "Doe");
-		myVisitor.setYearOfBirth(2003);
+//		Visitor myVisitor = new Visitor("Jane", "Doe");
+//		myVisitor.setYearOfBirth(2003);
+//
+//		System.out.println(myVisitor.toString());
+//		System.out.println(myVisitor.getWishlist());
+//		System.out.println(myVisitor.addToWishList("cat"));
+//		System.out.println(myVisitor.getWishlist());
+//		System.out.println(myVisitor.getNumberOfWishes());
+//		System.out.println(myVisitor.getYearOfBirth());
+//		System.out.println(myVisitor.getPersonalCode());
+//		myVisitor.setPersonalCode("avs");
+//		System.out.println(myVisitor.getPersonalCode());
+//		myVisitor.setPersonalCode("abv");
+//		System.out.println(myVisitor.getPersonalCode());
 
-		System.out.println(myVisitor.toString());
-		System.out.println(myVisitor.getWishlist());
-		System.out.println(myVisitor.addToWishList("cat"));
-		System.out.println(myVisitor.getWishlist());
-		System.out.println(myVisitor.getNumberOfWishes());
-		System.out.println(myVisitor.getYearOfBirth());
-		System.out.println(myVisitor.getPersonalCode());
-		myVisitor.setPersonalCode("avs");
-		System.out.println(myVisitor.getPersonalCode());
-		myVisitor.setPersonalCode("abv");
-		System.out.println(myVisitor.getPersonalCode());
-
-
-
+//		Staff myStaff = new Staff("Jane", "Doe");
+//		System.out.println(myStaff.getStartDate());
+//
+//
+//		System.out.println(myStaff.getStartDate());
+//
+//		System.out.println(myStaff.toString());
 
 		System.exit(0);
 
