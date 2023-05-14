@@ -7,6 +7,7 @@
     <list default="true" id="ab02ca5e-70b3-421f-b84b-51f988fbae34" name="Changes" comment="'Visitor Class beggining'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fact/it/zoo/model/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fact/it/zoo/model/Zoo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fact/it/zoo/ZooTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fact/it/zoo/ZooTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +62,7 @@
       <recent name="C:\Users\naris\OneDrive\Документы\Java\Maky_Abdykadyrova_r0926901_Zoo\Project Zoo\src\main\java\fact\it\zoo\model" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AnimalWorldTests">
+  <component name="RunManager" selected="JUnit.ZooTests">
     <configuration name="AnimalWorldTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="zoo" />
       <extension name="coverage">
@@ -124,7 +125,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VisitorTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ZooTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="zoo" />
       <extension name="coverage">
         <pattern>
@@ -133,7 +134,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="fact.it.zoo" />
-      <option name="MAIN_CLASS_NAME" value="fact.it.zoo.VisitorTests" />
+      <option name="MAIN_CLASS_NAME" value="fact.it.zoo.ZooTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -148,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ZooTests" />
         <item itemvalue="JUnit.AnimalWorldTests" />
         <item itemvalue="JUnit.StaffTests" />
         <item itemvalue="JUnit.StaffTests.testConstructorEnGetters" />
         <item itemvalue="JUnit.StaffTests.testToString" />
-        <item itemvalue="JUnit.VisitorTests" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +170,7 @@
       <workItem from="1683703299600" duration="19127000" />
       <workItem from="1683742378103" duration="6281000" />
       <workItem from="1683833160011" duration="4539000" />
-      <workItem from="1683997115077" duration="31726000" />
+      <workItem from="1683997115077" duration="34458000" />
     </task>
     <task id="LOCAL-00001" summary="'Visitor Class beggining'">
       <created>1683705512613</created>

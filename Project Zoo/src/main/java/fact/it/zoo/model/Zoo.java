@@ -21,10 +21,10 @@ public class Zoo {
         return numberVisitors;
     }
 
-    public AnimalWorld[] getAnimalWorlds(){
-        return ;
+    public ArrayList<AnimalWorld> getAnimalWorlds(){
+        return animalWorlds;
     }
-    public int getNumberOdAnimalWorlds() {
+    public int getNumberOfAnimalWorlds() {
         int size = animalWorlds.size();
         return size;
     }
