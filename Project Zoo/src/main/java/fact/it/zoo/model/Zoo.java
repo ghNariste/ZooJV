@@ -22,7 +22,7 @@ public class Zoo {
     }
 
     public AnimalWorld[] getAnimalWorlds(){
-        return animalWorlds;
+        return ;
     }
     public int getNumberOdAnimalWorlds() {
         int size = animalWorlds.size();
