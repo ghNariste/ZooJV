@@ -4,6 +4,8 @@ public class AnimalWorld {
     private String name;
     private String photo;
     private int numberOfAnimals;
+    private Staff responsible;
+
     public AnimalWorld(){}
 
     public AnimalWorld(String name) {
@@ -38,18 +40,16 @@ public class AnimalWorld {
         this.numberOfAnimals = numberOfAnimals;
     }
 
+    public void setResponsible(Staff responsible ) {
+        this.responsible = responsible;
+
+    }
     public Staff getResponsible(){
-        Staff resposible = new Staff("", "");
-        return resposible;
-
+        return responsible;
     }
 
 
-    public void setResponsible(Staff responsible  ) {
-        responsible = new Staff("", "");
 
-
-    }
 }
 //Maky Abdykadyrova
 //        r0926901

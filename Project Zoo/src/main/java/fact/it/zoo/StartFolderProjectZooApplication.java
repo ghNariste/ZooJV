@@ -17,8 +17,8 @@ public class StartFolderProjectZooApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(StartFolderProjectZooApplication.class, args);
-//		Person myPerson = new Person();
-//		myPerson.setFirstName("Dean");
+		Person myPerson = new Person();
+		myPerson.setFirstName("Dean");
 //		myPerson.setSurName("Don");
 //		myPerson.toString();
 //		System.out.println(myPerson.getFirstName());
@@ -40,13 +40,16 @@ public class StartFolderProjectZooApplication {
 //		myVisitor.setPersonalCode("abv");
 //		System.out.println(myVisitor.getPersonalCode());
 
-//		Staff myStaff = new Staff("Jane", "Doe");
-//		System.out.println(myStaff.getStartDate());
-//
-//
-//		System.out.println(myStaff.getStartDate());
-//
-//		System.out.println(myStaff.toString());
+		Staff myStaff = new Staff("Jane", "Doe");
+		System.out.println(myStaff.getStartDate());
+
+
+		System.out.println(myStaff.getStartDate());
+
+		System.out.println(myStaff.toString());
+		AnimalWorld myAnimalWorld = new AnimalWorld("Aquarium");
+//		myAnimalWorld.setResponsible(myStaff);
+//		System.out.println(myAnimalWorld.getResponsible());
 
 		System.exit(0);
 
