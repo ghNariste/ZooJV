@@ -7,8 +7,7 @@
     <list default="true" id="ab02ca5e-70b3-421f-b84b-51f988fbae34" name="Changes" comment="'Visitor Class beggining'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fact/it/zoo/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fact/it/zoo/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/1_visitor.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/1_visitor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/2_visitorinfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/2_visitorinfo.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +182,7 @@
       <workItem from="1683742378103" duration="6281000" />
       <workItem from="1683833160011" duration="4539000" />
       <workItem from="1683997115077" duration="34534000" />
-      <workItem from="1684231368490" duration="3276000" />
+      <workItem from="1684231368490" duration="4287000" />
     </task>
     <task id="LOCAL-00001" summary="'Visitor Class beggining'">
       <created>1683705512613</created>
