@@ -20,7 +20,23 @@ public class MainController{
     return "1_visitor";
 }
 
+@RequestMapping("/submitvisitor")
+    public String submitvisitor(HttpServerRequest request, Model model)
 
+    @RequestMapping("/2_visitorinfo")
+    public String visitorInfo(){
+
+        return "2_visitorinfo";
+    }
+
+    @RequestMapping("/3_staff")
+    public String staff(){
+        return "3_staff";
+    }
+    @RequestMapping("/4_staffinfo")
+    public String staffInfo(){
+        return "4_staffinfo";
+    }
 
 
 
