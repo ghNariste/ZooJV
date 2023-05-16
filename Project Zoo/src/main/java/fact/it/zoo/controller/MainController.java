@@ -1,6 +1,8 @@
 package fact.it.zoo.controller;
 
 
+import fact.it.zoo.model.Visitor;
+import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -21,11 +23,18 @@ public class MainController{
 }
 
 @RequestMapping("/submitvisitor")
-    public String submitvisitor(HttpServerRequest request, Model model)
+    public String submitvisitor(HttpServletRequest request, Visitor visitor){
+    String name = request.getParameter("name");
+    String surname = request.getParameter("surname");
+    int year = Integer.parseInt(request.getParameter("year"));
+    Visitor visitor1 = new Visitor(name, surname);
+    return "2_visitorinfo";
+}
 
     @RequestMapping("/2_visitorinfo")
-    public String visitorInfo(){
-
+    public String visitorInfo(Visitor visitor){
+        String toString = request.getParameter("toString");
+        String toString = visitor.toString();
         return "2_visitorinfo";
     }
 
