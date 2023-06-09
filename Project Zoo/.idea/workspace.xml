@@ -7,7 +7,7 @@
     <list default="true" id="ab02ca5e-70b3-421f-b84b-51f988fbae34" name="Changes" comment="'Visitor Class beggining'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fact/it/zoo/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fact/it/zoo/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/2_visitorinfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/2_visitorinfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fact/it/zoo/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fact/it/zoo/controller/MainController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,12 +58,15 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/naris/IdeaProjects/example-bicycle",
+    "last_opened_file_path": "C:/Users/naris/OneDrive/Документы/Java/Maky_Abdykadyrova_r0926901_Zoo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.general",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "fileTemplates",
     "spring.configuration.checksum": "d2cbe65f53da8607e64173c1a83394fe",
     "vue.rearranger.settings.migration": "true"
   }
@@ -160,8 +163,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ZooTests" />
         <item itemvalue="JUnit.AnimalWorldTests" />
+        <item itemvalue="JUnit.ZooTests" />
         <item itemvalue="JUnit.StaffTests" />
         <item itemvalue="JUnit.StaffTests.testConstructorEnGetters" />
         <item itemvalue="JUnit.StaffTests.testToString" />
@@ -169,6 +172,12 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBeansView">
+    <option name="showModules" value="false" />
+    <option name="showFilesets" value="false" />
+    <option name="showImplicitBeans" value="false" />
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="ab02ca5e-70b3-421f-b84b-51f988fbae34" name="Changes" comment="" />
@@ -182,7 +191,13 @@
       <workItem from="1683742378103" duration="6281000" />
       <workItem from="1683833160011" duration="4539000" />
       <workItem from="1683997115077" duration="34534000" />
-      <workItem from="1684231368490" duration="9502000" />
+      <workItem from="1684231368490" duration="10612000" />
+      <workItem from="1684614466454" duration="2000" />
+      <workItem from="1684700649516" duration="153000" />
+      <workItem from="1684913068632" duration="20000" />
+      <workItem from="1686173526924" duration="1292000" />
+      <workItem from="1686206052888" duration="1785000" />
+      <workItem from="1686208196603" duration="1023000" />
     </task>
     <task id="LOCAL-00001" summary="'Visitor Class beggining'">
       <created>1683705512613</created>

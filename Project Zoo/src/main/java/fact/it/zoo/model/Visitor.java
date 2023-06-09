@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class Visitor extends Person{
     private String personalCode;
+    private Staff staff;
     private int yearOfBirth;
     private ArrayList<String> wishList = new ArrayList<> (5);
 
@@ -53,6 +54,13 @@ public class Visitor extends Person{
     public String toString(){
         return "Visitor"+" "+super.toString()+ " "+"with personal code"+" "+getPersonalCode();
     }
+    public Staff getGuide(){
+        return staff;
+    }
+    public void setStaff(Staff guide){
+        this.staff=guide;
+    }
 }
+
 //Maky Abdykadyrova
 //        r0926901

@@ -8,10 +8,11 @@
 </head>
 <body>
 <container>
-    <p>Welcome Visitor</p>
-    <p th:text = "'Welcome Visitor'+' '+' '+${visitor.toString()}+' '+'with personal code'+' '+'undefined'"></p>
+    <p th:text = "'Staff member'+' '+' '+${staff.firstName}+' '+${staff.toString()}"></p>
+    <p th:if = "${staff.isStudent()}">(working student)</p>
+    <p th:if = "${!staff.isStudent()}">(working student)</p>
+
     <a href="/">Back to home page</a>
 </container>
-
 </body>
 </html>

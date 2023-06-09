@@ -1,10 +1,18 @@
 <!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
+<container>
+    <p th:text = "'Staff member'+' '+' '+${staff.toString()}"></p>
+    <p th:if = "${staff.isStudent()}">(working student)</p>
+    <p th:if = "${!staff.isStudent()}">(working student)</p>
 
+    <a href="/">Back to home page</a>
+</container>
 </body>
 </html>
